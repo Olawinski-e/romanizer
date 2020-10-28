@@ -34,18 +34,18 @@ The local server run on port 3000
 
 Used to HTTP POST an arabic number
 
-**URL** : `/api/conversion`
+**URL** : `/api/conversion/:data`
 
-**Method** : `POST`
+**Method** : `GET`
 
 **Headers** : `Content-Type: application/json`
 
 **Data constraints**
 
-```json
-{
+```url parameters
+
   "data": "[integer >=1 && integer <=100 ]"
-}
+
 ```
 
 #### Success Response
@@ -91,16 +91,14 @@ npm test
 
 - Test of the function romanize()
 - Test of the function romanize()
-- Test of api through POST REQUEST
 
-**Expectation** : 3/3 tests are passing
+**Expectation** : 2/2 tests are passing
 
 ```
   Javascript Function
     Romanizer function
       √ should return the converted romanian number of the numeral arabic 96 which is XCVI
       √ should return the converted romanian number of the numeral arabic 22 which is XXII
-      √ should return the converted romanian number of the numeral arabic 96 which is XCVI through the http request post
 
 
   3 passing (41ms)
