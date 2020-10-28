@@ -25,6 +25,7 @@
                 };
 
                 source.addEventListener('result', function(e) {
+                  document.getElementById("result").style.color = "BLACK";
                     document.getElementById("result").value = `${JSON.parse(e.data)}`;
                     source.close()
                 }, false)
