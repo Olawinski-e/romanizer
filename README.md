@@ -1,4 +1,4 @@
-# Romaizer API
+# Romanizer API
 
 This API is built to provide a service which allows an user to convert an arabic numeral into a romenian number from a range 1 to 100
 
