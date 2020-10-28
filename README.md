@@ -30,7 +30,7 @@ The local server run on port 3000
 
 ---
 
-## Token
+## Conversion
 
 Used to HTTP POST an arabic number
 
@@ -50,7 +50,7 @@ Used to HTTP POST an arabic number
 
 #### Success Response
 
-A token to access api service justify endpoints
+The result is the converted romanian number
 
 **Code** : `200 OK`
 
