@@ -13,6 +13,7 @@ The local server run on port 3000
 
 ## Infos
 
+```
 ├───models
 │ ├───No models
 ├───routes
@@ -23,6 +24,7 @@ The local server run on port 3000
 │ ├───Controllers receive incoming client requests, and they leverage services. It can also respond to the client
 ├───test
 │ ├───Units testing
+```
 
 ## Endpoints
 
@@ -37,8 +39,6 @@ Used to HTTP POST an arabic number
 **URL** : `/api/conversion/:data`
 
 **Method** : `GET`
-
-**Headers** : `Content-Type: application/json`
 
 **Data constraints**
 
